@@ -1,0 +1,28 @@
+﻿html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Arial;
+    font-size: 12pt;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: transparent transparent blue transparent;
+}
+
+.circle {
+    background-color: green;
+    opacity: 0.95;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.rectangle {
+    background-color: red;
+    opacity: 0.95;
+    border: 1px solid black;
+}
